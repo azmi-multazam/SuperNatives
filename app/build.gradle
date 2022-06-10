@@ -15,7 +15,7 @@ android {
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
         vectorDrawables.useSupportLibrary = true
 
-        buildConfigField("String", "SUPERHERO_API_KEY", SUPERHERO_API_KEY)
+        buildConfigField("String", "SUPERHERO_API_KEY", "5131345140284787")
     }
     buildTypes {
         release {
